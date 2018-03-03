@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:layout_marginRight="16dp"
+    android:layout_alignParentRight="true"
+    android:background="@drawable/fondo_derecho"
+    android:layout_marginLeft="72dp"
+    android:layout_marginTop="8dp"
+
+    >
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/mensajedeycuando"
+        android:layout_marginLeft="8dp"
+        android:layout_marginTop="8dp"
+        android:text="yudel 14/1/2018 12:20"
+
+        />
+
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/contenido_mensaje"
+        android:text="este es un texto temporal, de lo que debio ser un mensaje de chat enviado al usuraio que en este momento esta usando el telefono"
+        android:padding="6dp"
+        android:layout_below="@+id/mensajedeycuando"
+        />
+
+</RelativeLayout>

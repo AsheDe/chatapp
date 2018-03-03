@@ -1,0 +1,56 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout
+    android:orientation="horizontal"
+    android:layout_width="match_parent"
+    android:layout_height="72dp"
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    >
+
+    <ImageView
+        android:layout_width="40dp"
+        android:layout_height="40dp"
+        android:layout_alignParentLeft="true"
+        android:src="@drawable/avatar_usuario"
+        android:layout_centerVertical="true"
+        android:layout_marginLeft="16dp"
+        />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/nombre_usuario"
+        android:layout_marginLeft="72dp"
+        android:layout_centerVertical="true"
+        android:textSize="18sp"
+
+        />
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/ultimo_mensaje_usuario"
+        android:layout_marginLeft="80dp"
+        android:layout_alignParentBottom="true"
+        android:textSize="14sp"
+        android:text="Ultimo mensaje escrito"
+        android:layout_marginBottom="2dp"
+        />
+
+    <ImageView
+        android:layout_width="32dp"
+        android:layout_height="32dp"
+        android:id="@+id/subir_archivo"
+      android:layout_centerVertical="true"
+        android:layout_alignParentRight="true"
+        android:src="@drawable/subir_archivo"
+        android:layout_marginRight="16dp"
+        />
+
+    <View
+        android:layout_width="match_parent"
+        android:layout_height="1px"
+        android:background="@android:color/darker_gray"
+        android:layout_alignParentBottom="true"
+        android:layout_marginLeft="72dp"
+        />
+
+</RelativeLayout>
